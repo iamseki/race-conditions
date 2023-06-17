@@ -98,6 +98,7 @@ func main() {
 
 	fmt.Println(`----------------------------------------
 	now channel were using in concurrently count implementation, since the channel has a buffer size of 1 byte there is no way
-	of goroutines writes on the same channel if it is full, so this will syncronize the execution. 
+	of goroutines writes on the same channel if it is full, so this will syncronize the execution.
+	This is a hack !!!! The best use case for channel is for comunication between goroutines 1!! 
 ----------------------------------------`)
 }
